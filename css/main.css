@@ -1,0 +1,203 @@
+.navbar{
+    height:50px;
+    padding-top:0px;
+    margin: 0;
+    overflow: hidden;
+}
+#navbar{
+    position: -webkit-sticky;
+  position: sticky;
+    top: 0;
+    opacity: 100% ;
+    z-index: 9999;
+  }
+
+#home{
+    color: rgb(0, 0, 0);
+    height: 500px;
+    padding: 140px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    background-color:#61A4BC;
+}
+#heading{
+    font-size: 8vh;
+}
+
+/*.top_cloud{
+    position: absolute; 
+    right: 200px;
+    top: 100px;
+    height:100px;
+}
+.bottom_cloud{
+    position: absolute; 
+    left: 200px;
+    bottom: 250px;
+    height:150px;
+}*/
+.plane{
+
+    position: absolute; 
+    left: 30%;
+    bottom:-80px;
+    height:500px;
+}
+
+#hover1:hover,#hover2:hover,#hover3:hover,#hover4:hover,#hover5:hover,#hover6:hover{
+    color:grey;
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+#about{
+    height:700px;
+    margin:200px 0 0 0;
+    background-color: black;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    padding: 50px;
+}
+#aboutus{
+    font-family: 'Sacramento', cursive;
+    font-size: 7vh;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+#friends{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    opacity: 70%;
+    background-size: cover;
+
+}
+.centered{
+  opacity: 100%;
+}
+#gallery{
+    background-color: #97C4B8;
+    padding: 30px 200px;
+    margin:0;
+}
+#join{
+    font-size: 10vh;
+}
+#gal-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+#packages{
+    color: rgb(0, 0, 0);
+    height: 500px;
+    padding: 80px 80px;
+    font-family: 'Sacramento', cursive ;
+    background-color: white;
+    color:#18634fe5;
+   
+}
+#em{
+        float:inline-end;
+        height:200px;
+        padding-left: 1100px;
+        padding-bottom: 50px;        
+}
+#msg{
+    font-size: 3vh;
+}
+ul{
+    padding-top:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#happy{
+    margin:0;
+    margin-top:80px;
+}
+.review{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h-text{
+    color:#104134;
+    padding:0 0px 20px 30px;
+    font-size: 3vh;
+    font-family: 'Sacramento', cursive ;
+  
+}
+hr{
+    color:#18634fe5;
+   border-style:none;
+   border-top-style:dotted;
+   border-width:15px;
+   width:10%;
+   margin:100px auto;
+}
+#contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:40%;
+    margin:40px auto 60px auto;
+    text-align: center;
+    color:#18634fe5
+}
+.btn {
+    background: #97C4B8;
+    background-image: -webkit-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: -moz-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: -ms-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: -o-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: linear-gradient(to bottom, #97C4B8, #18634fe5);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: -moz-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: -ms-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: -o-linear-gradient(top, #97C4B8, #18634fe5);
+    background-image: linear-gradient(to bottom, #97C4B8, #18634fe5);
+    text-decoration: none;
+  }
+#c1{
+    padding-bottom: 10px;
+}
+.bottom-container{
+    background-color:#97C4B8 ;
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+.col:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+a{
+    color: black;;
+}
+.fa:hover {
+    opacity: 0.9;
+    color: #18634fe5;
+}
+
+
+
+.fa {
+    font-size: 30px;
+    width: 40px;
+    text-decoration: none;
+   
+}
+
+/*

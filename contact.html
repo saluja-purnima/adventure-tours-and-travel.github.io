@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<h lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ 
+    <title>Soul Tours and Travel Contact</title>
+    <link rel="stylesheet" href="css\other.css">
+    <link rel="icon" href="favion/flight.png">
+</head>
+<body>
+
+  <div id="contact"style="background-image: url(contact/bg.jpg)";>
+    <div id="image">
+      <img src=" " alt="" class="src">
+    </div>
+  <div id="text">
+    <p id="main">CONTACT US</p>
+    <form>
+      <label for="fname" id="infont">Enter Your Name</label><br>
+      <input  onkeyup="textbox()"  class="box" type="text" id="fname" name="firstname" placeholder="first name...">
+      <input  onkeyup="textbox2()" class="box" type="text" id="lname" name="lastname" placeholder="last name...">  <br> 
+      <span  style="color: red;" id="abc"> </span>
+      <span  style="color: red;" id="message"> </span>
+      <br>
+      <label  for="email" id="infont">Email</label><br>
+      <input class="box" type="email" id="mail" name="mail" placeholder="abc@gmail.com" width="100%"><br><br>
+      <label for="subject" id="infont">Please enter your valuable feedback and feel free to ask your queries.</label><br>
+      <textarea onkeyup="textbox3()" class="box" id="subject" name="subject" placeholder="Type here..."></textarea><br>
+      <span style="color:white;" id="limit"></span><br><br>
+      <input class="btn" type="submit" value="Submit" name="btn">
+      
+    </form>
+  </div>
+   </div>
+  <script>
+        function textbox()
+          {
+          var name= document.getElementById("fname").value
+          var correct_name=/^[A-Za-z]+$/ 
+   
+           if(name.match(correct_name))
+           {
+            document.getElementById("message").innerHTML=""
+            }
+            else{
+             document.getElementById("message").innerHTML="Invalid name"
+             }
+          }
+
+        function textbox2(){
+          var name= document.getElementById("lname").value
+          var correct_name=/^[A-Za-z]+$/ 
+   
+           if(name.match(correct_name)){
+              document.getElementById("message").innerHTML=""
+          }
+          else{
+              document.getElementById("message").innerHTML="Invalid name"
+            }
+        }
+
+        function textbox3(){
+          var len= document.getElementById("subject").value
+          if(len.length===20){
+              document.getElementById("limit").innerHTML="You reached the limit."
+            }
+          else{
+            document.getElementById("limit").innerHTML="You have written "+len.length+" characters, you have "+(500-len.length)+" characters left."
+          }
+        }
+        
+        
+  </script>
+ </body>
+</html>

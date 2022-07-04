@@ -1,0 +1,55 @@
+#contact{
+    height:750px;
+    margin:0 0;
+    opacity:80%;  
+}
+#text{
+    font-weight:bolder;
+    text-align: left;
+    padding:100px;
+    color: black;
+}
+#main{
+    font-family: 'Sacramento', cursive ;
+    font-size: 5vh;
+    padding-bottom: 40px;
+}
+#image{
+    float: right;
+    size:100px;
+}
+.box{
+    background-color: gainsboro;
+}
+
+#subject{
+    width:400px;
+    height:150px;
+}
+    
+.btn {
+    background: rgba(218, 157, 76, 0.9);
+    background-image: -webkit-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: -moz-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: -ms-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: -o-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: linear-gradient(to bottom, rgba(218, 157, 76, 0.9), #18634fe5);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: -moz-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: -ms-linear-gradient(top, rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: -o-linear-gradient(top,rgba(218, 157, 76, 0.9), #18634fe5);
+    background-image: linear-gradient(to bottom, rgba(218, 157, 76, 0.9), #18634fe5);
+    text-decoration: none;
+  }
+ 
